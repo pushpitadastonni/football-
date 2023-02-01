@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="https://kit.fontawesome.com/9818fe862d.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #E5E5E5;
+        }
+
+        main {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .teachers {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-row-gap: 30px;
+        }
+
+        .teacher {
+            display: flex;
+            align-items: center;
+        }
+
+        .teachers .teacher img {
+            width: 56px;
+            height: 56px;
+        }
+
+        .teacher-name {
+            margin-left: 16px;
+            font-size: 18px;
+        }
+
+        .section-title {
+            color: #562EFF;
+            margin-top: 3px;
+        }
+
+        .container {
+            width: 870px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+        }
+
+        hr {
+            border: 1px solid #D1D1D1;
+        }
+
+        .top-teachers {
+            margin-bottom: 21px;
+        }
+
+        .thumbnail img {
+            width: 177px;
+            height: 117px;
+        }
+
+        .blog {
+            display: flex;
+        }
+
+        .blog-info {
+            margin-left: 16px;
+        }
+
+        .blog-info .blog-author a {
+            text-decoration: none;
+            color: #562EFF;
+        }
+
+        .blogs {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-row-gap: 25px;
+        }
+
+        .course-banner img {
+            width: 224px;
+            height: 104px;
+            margin-left: 14px;
+        }
+
+        .fa-star.filled {
+            color: #FFC014;
+        }
+
+        .fa-star.empty {
+            color: #AEAEAE;
+        }
+
+        span {
+            color: #a2a2a2;
+            margin-left: 10px;
+        }
+
+        .timing {
+            color: #FF4A60;
+            background-color: #FFE4E8;
+            border-radius: 20px;
+            padding: 8px;
+        }
+
+        .course-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .courses {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-column-gap: 24px;
+        }
+
+        .course {
+            width: 252px;
+            height: 270px;
+            padding: 12px;
+            border-radius: 10px;
+            box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header section start -->
+    <header>
+
+    </header>
+    <!-- header section end -->
+    <main>
+        <!-- teacher section start -->
+        <section class="container">
+            <div class="top-teachers">
+                <h2 class="section-title">Top Teachers</h2>
+                <div class="teachers">
+                    <div class="teacher"><img src="/images/teachers/teacher1.png" alt="">
+                        <h4 class="teacher-name">Teacher-1</h4>
+                    </div>
+                    <div class="teacher"><img src="/images/teachers/teacher2.png" alt="">
+                        <h4 class="teacher-name">Teacher-1</h4>
+                    </div>
+                    <div class="teacher"><img src="/images/teachers/teacher3.png" alt="">
+                        <h4 class="teacher-name">Teacher-1</h4>
+                    </div>
+                    <div class="teacher"><img src="/images/teachers/teacher4.png" alt="">
+                        <h4 class="teacher-name">Teacher-1</h4>
+                    </div>
+                    <div class="teacher"><img src="/images/teachers/teacher5.png" alt="">
+                        <h4 class="teacher-name">Teacher-1</h4>
+                    </div>
+                    <div class="teacher"><img src="/images/teachers/teacher6.png" alt="">
+                        <h4 class="teacher-name">Teacher-1</h4>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="top-blogs">
+                <h2 class="section-title">Top-Blogs</h2>
+                <div class="blogs">
+                    <article class="blog">
+                        <div class="thumbnail"><img src="/images/blogs/blog-1.png" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <h4 class="blog-title">This is a new blog</h4>
+                            <p class="blog-author">By <a href="">Dani Sapio</a></p>
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="thumbnail"><img src="/images/blogs/blog-2.png" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <h4 class="blog-title">This is a new blog</h4>
+                            <p class="blog-author">By <a href="">Dani Sapio</a></p>
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="thumbnail"><img src="/images/blogs/blog-3.png" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <h4 class="blog-title">This is a new blog</h4>
+                            <p class="blog-author">By <a href="">Dani Sapio</a></p>
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="thumbnail"><img src="/images/blogs/blog-4.png" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <h4 class="blog-title">This is a new blog</h4>
+                            <p class="blog-author">By <a href="">Dani Sapio</a></p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- teacher section end -->
+        <section class="container">
+            <h3 class="section-title">Latest Courses</h3>
+            <div class="courses">
+                <div class="course">
+                    <div class="course-banner"><img src="/images/courses/course-1.png" alt=""></div>
+                    <div class="course-detail">
+                        <h3 class="course-title">This is the new react 2023</h3>
+                        <p class="course-author">Ashfaq</p>
+                        <div class="course-info">
+                            <div class="rating">
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star empty"></i>
+                                <span>4.5</span>
+                            </div>
+                            <div class="timing">
+                                <i class="fa-regular fa-clock"></i>
+                                01:30 hr
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-banner"><img src="/images/courses/course-2.png" alt=""></div>
+                    <div class="course-detail">
+                        <h3 class="course-title">This is the new react 2023</h3>
+                        <p class="course-author">Ashfaq</p>
+                        <div class="course-info">
+                            <div class="rating">
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star empty"></i>
+                                <span>4.5</span>
+                            </div>
+                            <div class="timing">
+                                <i class="fa-regular fa-clock"></i>
+                                01:30 hr
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-banner"><img src="/images/courses/course-3.png" alt=""></div>
+                    <div class="course-detail">
+                        <h3 class="course-title">This is the new react 2023</h3>
+                        <p class="course-author">Ashfaq</p>
+                        <div class="course-info">
+                            <div class="rating">
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star empty"></i>
+                                <span>4.5</span>
+                            </div>
+                            <div class="timing">
+                                <i class="fa-regular fa-clock"></i>
+                                01:30 hr
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
